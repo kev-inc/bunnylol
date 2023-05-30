@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# bunnylol
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Implementation of Facebook/Meta's bunnylol, running on https://kev-inc.github.io/bunnylol/
 
-## Available Scripts
+## Commands available
+Command | Name | URL
+--- | --- | ---
+g | Google | https://google.com/
+g [query] | Google | https://www.google.com/search?q=[query]
+fb | Facebook | https://facebook.com/
+fb [query] | Facebook | https://www.facebook.com/search/top/?q=
+wa | WhatsApp | https://web.whatsapp.com/
+ig | Instagram | https://instagram.com/
+gm | Gmail | https://mail.google.com/mail/u/0
+gd | Google Drive | https://drive.google.com/drive/u/0
+cal | Google Calendar | https://calendar.google.com/calendar/r
+maps | Google Maps | https://www.google.com/maps/
+maps [query] | Google Maps | https://www.google.com/maps/search/
+yt | YouTube | https://youtube.com/
+yt [query] | YouTube | https://www.youtube.com/results?search_query=
+gh | GitHub | https://github.com/
+gh [query] | GitHub | https://www.github.com/search?q=
+l | LinkedIn | https://linkedin.com/
+DEFAULT | Default - Google Search | https://google.com/
 
-In the project directory, you can run:
+The full list of commands can be found in `src/Commands.js`
 
-### `npm start`
+## How to use
+1. In chrome, open 'Settings' and navigate to 'Search engine', and click on 'Manage search engines and site search'
+2. Under the site search settings, click on 'Add' and enter the following:
+```
+Search engine - bunnylol
+Shortcut - b
+URL with %s in place of query - https://kev-inc.github.io/bunnylol/#/?search=%s
+```
+3. Click save, and set as the default search engine for your browser
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Forking your own
+1. Clone the repository
+2. Update the `homepage` in `package.json` to your own GitHub pages URL (format: `https://[github-username].github.io/[repo-name]`)
+3. Run `npm run deploy`
+4. Your instance of bunnylol should be running in `https://[github-username].github.io/[repo-name]`, make sure to add `https://[github-username].github.io/[repo-name]/#/?search=%s` to your chrome search engine settings
