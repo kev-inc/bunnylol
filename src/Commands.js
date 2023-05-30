@@ -56,6 +56,10 @@ const COMMANDS = {
         name: "Google Calendar",
         url: "https://calendar.google.com/calendar/r"
     },
+    tr: {
+        name: 'Trello',
+        url: 'https://trello.com/'
+    },
     cineb: {
         name: 'cineb.net',
         url: 'https://cineb.net/',
