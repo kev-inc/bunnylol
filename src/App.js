@@ -75,7 +75,7 @@ function App() {
             const command = tokens[0]
             if (command in COMMAND) {
                 let url = COMMAND[command]['url']
-                if (tokens.length > 1) {
+                if ('searchurl' in COMMAND[command] && tokens.length > 1) {
                     const query = tokens.slice(1)
                     url = COMMAND[command]['searchurl'] + query.join(" ")
                 }
