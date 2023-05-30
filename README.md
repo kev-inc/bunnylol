@@ -38,5 +38,6 @@ URL with %s in place of query - https://kev-inc.github.io/bunnylol/#/?search=%s
 ## Forking your own
 1. Clone the repository
 2. Update the `homepage` in `package.json` to your own GitHub pages URL (format: `https://[github-username].github.io/[repo-name]`)
-3. Run `npm run deploy`
-4. Your instance of bunnylol should be running in `https://[github-username].github.io/[repo-name]`, make sure to add `https://[github-username].github.io/[repo-name]/#/?search=%s` to your chrome search engine settings
+3. To run locally, run `npm start`
+4. To deploy, run `npm run deploy`
+5. Your instance of bunnylol should be running in `https://[github-username].github.io/[repo-name]`, make sure to add `https://[github-username].github.io/[repo-name]/#/?search=%s` to your chrome search engine settings
