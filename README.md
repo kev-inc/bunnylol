@@ -35,9 +35,14 @@ URL with %s in place of query - https://kev-inc.github.io/bunnylol/#/?search=%s
 ```
 3. Click save, and set as the default search engine for your browser
 
-## Forking your own
+## Deploying your own
+
 1. Clone the repository
 2. Update the `homepage` in `package.json` to your own GitHub pages URL (format: `https://[github-username].github.io/[repo-name]`)
-3. To run locally, run `npm start`
-4. To deploy, run `npm run deploy`
-5. Your instance of bunnylol should be running in `https://[github-username].github.io/[repo-name]`, make sure to add `https://[github-username].github.io/[repo-name]/#/?search=%s` to your chrome search engine settings
+3. On GitHub, navigate to 'Actions' and click on the 'Build and Deploy' workflow
+4. Click on 'Run workflow' from branch 'main'. This should trigger the deploy workflow to publish the website onto the url provided in step 2. Make sure to add `https://[github-username].github.io/[repo-name]/#/?search=%s` to your chrome search engine settings
+
+## Running locally
+
+1. To run locally, run `npm start`
+2. To deploy, run `npm run deploy`
