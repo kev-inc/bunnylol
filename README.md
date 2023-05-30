@@ -1,6 +1,6 @@
 # bunnylol
 
-Implementation of Facebook/Meta's bunnylol, running on https://kev-inc.github.io/bunnylol/
+Implementation of Facebook/Meta's bunnylol, running on `https://kev-inc.github.io/bunnylol/#/?search=`
 
 ## Commands available
 Command | Name | URL
