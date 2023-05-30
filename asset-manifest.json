@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/bunnylol/static/js/main.684a1432.js",
+    "main.js": "/bunnylol/static/js/main.375392e4.js",
     "index.html": "/bunnylol/index.html",
-    "main.684a1432.js.map": "/bunnylol/static/js/main.684a1432.js.map"
+    "main.375392e4.js.map": "/bunnylol/static/js/main.375392e4.js.map"
   },
   "entrypoints": [
-    "static/js/main.684a1432.js"
+    "static/js/main.375392e4.js"
   ]
 }
