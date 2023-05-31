@@ -60,6 +60,11 @@ const COMMANDS = {
         name: 'Trello',
         url: 'https://trello.com/'
     },
+    th: {
+        name: 'Thesaurus',
+        url: 'https://www.thesaurus.com/',
+        searchurl: 'https://www.thesaurus.com/browse/'
+    },
     cineb: {
         name: 'cineb.net',
         url: 'https://cineb.net/',
