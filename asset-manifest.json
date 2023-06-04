@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.js": "/bunnylol/static/js/main.0e4db754.js",
+    "main.css": "/bunnylol/static/css/main.e8e12325.css",
+    "main.js": "/bunnylol/static/js/main.727eeb6c.js",
     "index.html": "/bunnylol/index.html",
-    "main.0e4db754.js.map": "/bunnylol/static/js/main.0e4db754.js.map"
+    "main.e8e12325.css.map": "/bunnylol/static/css/main.e8e12325.css.map",
+    "main.727eeb6c.js.map": "/bunnylol/static/js/main.727eeb6c.js.map"
   },
   "entrypoints": [
-    "static/js/main.0e4db754.js"
+    "static/css/main.e8e12325.css",
+    "static/js/main.727eeb6c.js"
   ]
 }
