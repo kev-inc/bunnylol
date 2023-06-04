@@ -1,5 +1,6 @@
 import { useSearchParams } from "react-router-dom";
 import COMMANDS from './Commands'
+import Help from "./Help";
 
 function App() {
     const [searchParams] = useSearchParams();
@@ -20,7 +21,7 @@ function App() {
             }
         }
     }
-    return <div/>;
+    return <Help />;
 }
 
 export default App;
