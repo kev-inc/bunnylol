@@ -20,8 +20,9 @@ function App() {
                 window.location.replace(COMMANDS['DEFAULT']['searchurl'] + search)
             }
         }
+    } else {
+        return <Help />;
     }
-    return <Help />;
 }
 
 export default App;
