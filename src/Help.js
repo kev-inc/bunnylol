@@ -1,7 +1,7 @@
 import COMMANDS from './Commands'
 import './styles.css'
 import { useState } from 'react'
-
+import logo from './rabbit.png'
 
 const Help = () => {
     const [search, setSearch] = useState('')
@@ -23,10 +23,10 @@ const Help = () => {
         }
     }
     return (
-
         <div>
             <div className='navbar'>
-                <h3>Bunnylol</h3>
+                <img className='icon' src={logo} alt='logo'/>
+                <h3 className='inline'>bunnylol</h3>
             </div>
             <div className='container'>
 
