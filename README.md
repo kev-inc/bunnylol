@@ -12,7 +12,8 @@ fb [query] | Facebook | https://www.facebook.com/search/top/?q=[query]
 wa | WhatsApp | https://web.whatsapp.com/
 ig | Instagram | https://instagram.com/
 gm | Gmail | https://mail.google.com/mail/u/0
-gd | Google Drive | https://drive.google.com/drive/u/0
+gd | Google Drive | https://drive.google.com/drive/recent
+gd [query] | Google Drive | https://drive.google.com/drive/search?q=[query]
 cal | Google Calendar | https://calendar.google.com/calendar/r
 maps | Google Maps | https://www.google.com/maps/
 maps [query] | Google Maps | https://www.google.com/maps/search/[query]
