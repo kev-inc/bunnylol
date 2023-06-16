@@ -20,8 +20,8 @@ const COMMANDS = {
     },
     gd: {
         name: "Google Drive",
-        url: "https://drive.google.com/drive/u/0",
-        searchurl: "https://drive.google.com/drive/u/"
+        url: "https://drive.google.com/drive/recent",
+        searchurl: "https://drive.google.com/drive/search?q="
     },
     maps: {
         name: "Google Maps",
