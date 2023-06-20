@@ -9,10 +9,6 @@ body {
     background-color: rgb(240, 242, 245);
 }
 
-* {
-    overflow:hidden; /* or auto */
-}
-
 h3 {
     margin: 0px;
     font-weight: 900;
